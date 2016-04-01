@@ -1,0 +1,33 @@
+{
+    "name": "3d",
+    "version": "0.0.1",
+    "author": [
+        "Gilles Dubuc"
+    ],
+    "url": "https://www.mediawiki.org/wiki/Extension:3d",
+    "namemsg": "3d",
+    "descriptionmsg": "3d-desc",
+    "license-name": "MIT",
+    "type": "other",
+    "manifest_version": 1,
+    "MessageDirs": {
+        "3d": [
+            "i18n"
+        ]
+    },
+    "AutoloadClasses": [],
+    "ResourceModules": {
+        "ResourceLoaderTestModules": "3dHooks::onResourceLoaderTestModules"
+    },
+    "ext.3d": {
+        "scripts": [
+            "modules/ext.3d.js"
+        ],
+        "styles": [
+            "modules/ext.3d.css"
+        ],
+        "messages": [],
+        "dependencies": []
+    },
+    "3dHooks": "Hooks.php"
+}
