@@ -29,5 +29,7 @@
         "messages": [],
         "dependencies": []
     },
-    "3dHooks": "Hooks.php"
+    "AutoloadClasses": {
+        "3dHooks": "Hooks.php"
+    }
 }
