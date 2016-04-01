@@ -16,8 +16,10 @@
         ]
     },
     "AutoloadClasses": [],
-    "ResourceModules": {
-        "ResourceLoaderTestModules": "3dHooks::onResourceLoaderTestModules"
+    "Hooks": {
+        "ResourceLoaderTestModules": [
+            "3dHooks::onResourceLoaderTestModules"
+        ]
     },
     "ext.3d": {
         "scripts": [
