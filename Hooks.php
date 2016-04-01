@@ -6,7 +6,13 @@
  * @ingroup Extensions
  * @license MIT
  */
-class 3dHooks {
+class ThreeDHooks {
 
+	public static function onResourceLoaderTestModules(
+		array &$testModules,
+		ResourceLoader &$resourceLoader
+	) {
+
+	}
 
 }

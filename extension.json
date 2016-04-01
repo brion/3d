@@ -18,7 +18,7 @@
     "AutoloadClasses": [],
     "Hooks": {
         "ResourceLoaderTestModules": [
-            "3dHooks::onResourceLoaderTestModules"
+            "ThreeDHooks::onResourceLoaderTestModules"
         ]
     },
     "ext.3d": {
@@ -32,6 +32,6 @@
         "dependencies": []
     },
     "AutoloadClasses": {
-        "3dHooks": "Hooks.php"
+        "ThreeDHooks": "Hooks.php"
     }
 }
