@@ -32,6 +32,11 @@
         "dependencies": []
     },
     "AutoloadClasses": {
-        "ThreeDHooks": "Hooks.php"
+        "ThreeDHooks": "ThreeDHooks.php",
+        "ThreeDHandler": "ThreeDHandler.php"
+    },
+    "MediaHandlers": {
+        "application/x-amf": "ThreeDHandler",
+        "application/sla": "ThreeDHandler"
     }
 }
